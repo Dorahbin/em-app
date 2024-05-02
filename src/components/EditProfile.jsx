@@ -39,7 +39,7 @@ function EditProfile() {
                 Hi, <span className='text-primary'>John Doe</span>
               </h5>
               <h3>Complete Your Profile</h3>
-              <img src={profileImg} alt='' />
+              <img src={profileImg} alt='' className='edit-profile-img' />
               <input
                 type='file'
                 name=''
@@ -48,7 +48,7 @@ function EditProfile() {
             </div>
 
             {/* second div */}
-            <div className='col-lg-5 d-lg-flex align-items-center justify-content-center'>
+            <div className='col-lg-5 d-lg-flex  align-items-center justify-content-center'>
               <div className='wrapper   '>
                 <h5 className='mt-3 basic-h5'>Basic Information</h5>
                 {/* form */}
@@ -57,7 +57,7 @@ function EditProfile() {
                   <div className='position-relative'>
                     <textarea
                       name=''
-                      className='rounded  utils'
+                      className='rounded bio-input utils'
                       placeholder='Bio'
                       cols='30'
                       rows='5'
@@ -72,7 +72,7 @@ function EditProfile() {
                   {/* age and gender */}
                   <div className='position-relative  utils'>
                     <input
-                      type='text'
+                      type='number'
                       className='age-input rounded me-1 '
                       placeholder='Age'
                     />
@@ -122,7 +122,7 @@ function EditProfile() {
                   </div>
 
                   {/* socials */}
-                  <h5 className='mt-3'>Socials</h5>
+                  <h5 className='mt-3 socials-header'>Socials</h5>
                   {/*twitter*/}
                   <div className='position-relative mt-1'>
                     <input

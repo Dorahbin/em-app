@@ -9,7 +9,7 @@ import twitterImg from '../assets/twitter.svg';
 import followersImg from '../assets/followers.svg';
 import likesImg from '../assets/likes.svg';
 import followingImg from '../assets/following.svg';
-import userImg from '../assets/profile-pic.svg'
+import userImg from '../assets/profile-img.svg'
 function UserProfileSection() {
   const [show, setShow] = useState(false);
 

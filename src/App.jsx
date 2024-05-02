@@ -17,7 +17,6 @@ function App() {
           <Route path='/ResetPassword' element={<ResetPassword />}></Route>
           <Route path='/FriendProfile' element={<FriendProfile/>}></Route>
           <Route path='/Profile' element={<Profile/>}></Route>
-          
         </Routes>
       </BrowserRouter>
     </>

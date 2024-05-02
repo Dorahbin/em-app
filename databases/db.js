@@ -42,7 +42,7 @@ export let people = [
     post: 'Lorem ipsum dolor sit amet consectetur. Morbi lacus neque fermentum vivamus orci. Lorem consectetur neque sit sociis turpis quisque. Auctor ullamcorper quam sit mattis posuere pulvinar molestie dignissim. Pulvinar tincidunt convallis sem congue. Tortor ac suscipit cum.',
     profileImg: naogamiImg,
     postImg: naogamiPostiImg,
-    follow: `follow +`,
+    follow: `follow`,
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ export let people = [
     post: 'Lorem ipsum dolor sit amet consectetur. Morbi lacus neque fermentum vivamus orci. Lorem consectetur neque sit sociis turpis quisque. Auctor ullamcorper quam sit mattis posuere pulvinar molestie dignissim. Pulvinar tincidunt convallis sem congue. Tortor ac suscipit cum.',
     profileImg: senjuImg,
     postImg: senjuiPostiImg,
-    follow: `follow +`,
+    follow: `follow`,
   },
 ];
 
@@ -73,7 +73,7 @@ export let comments = [
     comment:
       'Lorem ipsum dolor sit amet consectetur. Sit in mauris consequat sed euismod vitae egestas diam. Diam fames in morbi egestas. Sit fermentum nisi.',
     profileImg: idrisImg,
-    follow: `follow +`,
+    follow: `follow `,
   },
   {
     id: 2,

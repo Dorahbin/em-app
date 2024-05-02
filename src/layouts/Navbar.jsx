@@ -17,6 +17,7 @@ const Navbar = () => {
   }
   return (
     <>
+    <div className="nav-wrapper">
       <main className='d-flex justify-content-between align-items-center container nav-container'>
         {/* search section */}
         <section className='d-flex gap-3 align-items-center search-div'>
@@ -40,11 +41,11 @@ const Navbar = () => {
         </section>
 
         {/* profile section */}
-        <div className='d-none d-lg-block'>
+        <div className='d-none d-lg-block d-md-block'>
           <section className='d-flex gap-3 align-items-center position-relative'>
             <div className='d-flex flex-column align-items-center'>
-            <Link to='/Home'>
-              <img src={homeImg} alt='' />
+              <Link to='/Home'>
+                <img src={homeImg} alt='' />
               </Link>
               <span>Home</span>
             </div>
@@ -53,17 +54,16 @@ const Navbar = () => {
               <span>Community</span>
             </div>
             <div className='d-flex flex-column align-items-center '>
-            <Link to='/Profile'>
-              <img src={profileImg} alt='' />
+              <Link to='/Profile'>
+                <img src={profileImg} alt='' />
               </Link>
               <span className='d-flex'>
                 Me
                 <span
-                  className='d-none   d-lg-block'
+                  // className='d-none   d-lg-block'
                   role='button'
                   onClick={handleDrop}
                 >
-                  {' '}
                   {bagShow ? <GoChevronUp /> : <GoChevronDown />}
                 </span>
               </span>
@@ -74,6 +74,7 @@ const Navbar = () => {
           </section>
         </div>
       </main>
+      </div>
     </>
   );
 };

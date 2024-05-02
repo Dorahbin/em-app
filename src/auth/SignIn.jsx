@@ -21,11 +21,7 @@ const schema = yup.object().shape({
   password: yup
     .string()
     .required('Password is required')
-    .min(8, 'Password must be at least 8 characters')
-    .matches(
-      /^(?=.[a-zA-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%*?&]/,
-      'Password must contain at least one letter, one number, and one special character'
-    ),
+    .min(8, 'Password must be at least 8 characters'),
 });
 
 const SignIn = () => {
@@ -139,9 +135,9 @@ const SignIn = () => {
                   </div>
 
                   {/* btn */}
-                    <button className='btn btn-lg w-100 fw-light btn-primary rounded-pill'>
-                      Sign In
-                    </button>
+                  <button className='btn btn-lg w-100 fw-light btn-primary rounded-pill'>
+                    Sign In
+                  </button>
                   {/* have an acc ? */}
                   <span className='d-flex gap-1 '>
                     <span className='fw-light'> Dont have an account yet?</span>

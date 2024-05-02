@@ -89,7 +89,7 @@ const Home = () => {
                   <input
                     type='text'
                     className='rounded-pill ps-2 post-input w-100'
-                    placeholder='What do you want to ask or share?'
+                    placeholder='What do you want to share?'
                   />
                 </div>
 
@@ -127,7 +127,7 @@ const Home = () => {
 
                         {/* btn-div */}
                         <div>
-                          <button className='btn btn-white btn-sm rounded-pill border px-4'>
+                          <button className='btn btn-white btn-sm rounded-pill follow-btn border px-4'>
                             {follow}
                           </button>
                         </div>

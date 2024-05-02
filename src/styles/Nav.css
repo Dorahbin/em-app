@@ -26,14 +26,9 @@
 .nav-section {
   position: fixed;
   bottom: 0;
-  background: #90a4ae;
 }
 
-.off-div {
-  width: rem;
-}
-
-@media (max-width: 425px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .nav-container {
     height: 4rem;
   }
@@ -43,20 +38,46 @@
   }
 
   .search-box {
-    width: 20rem;
+    width: 22rem;
     height: 2.5rem;
     margin: auto;
   }
 }
 
-/* @media (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 424px) {
+  .nav-container {
+    height: 4rem;
+  }
+
+  .off-div {
+    width: 2rem;
+  }
+  .search-img {
+    top: 0.2rem;
+  }
+
   .search-box {
-    width: 39.5rem;
-    height: 2.5rem;
+    width: 18rem;
+    height: 2rem;
+    margin: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .search-box {
+    width: 15rem;
+    height: 2rem;
     margin: auto;
   }
 
-  .search-img {
-    top: 0.5rem;
+  .nav-container {
+    height: 4rem;
   }
-} */
+
+  .off-div {
+    width: 2rem;
+  }
+  .search-img {
+    top: 0.2rem;
+  }
+}
