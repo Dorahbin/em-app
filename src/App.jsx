@@ -6,6 +6,7 @@ import ResetPassword from './auth/ResetPassword';
 import Home from './pages/Home.jsx';
 import FriendProfile from './pages/FriendProfile.jsx';
 import Profile from './pages/Profile.jsx';
+import Error from './pages/Error.jsx';
 function App() {
   return (
     <>
@@ -17,6 +18,8 @@ function App() {
           <Route path='/ResetPassword' element={<ResetPassword />}></Route>
           <Route path='/FriendProfile' element={<FriendProfile/>}></Route>
           <Route path='/Profile' element={<Profile/>}></Route>
+          <Route path='*' element={<Error/>}/>
+
         </Routes>
       </BrowserRouter>
     </>
