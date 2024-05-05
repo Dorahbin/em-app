@@ -90,7 +90,7 @@ export let comments = [
     comment:
       'orem ipsum dolor sit amet consectetur. Sit in mauris consequat sed euismod vitae egestas diam. Diam fames in morbi egestas. Sit fermentum nisi maecenas blandit posuere at sit.',
     profileImg: cynthiaImg,
-    follow: `follow +`,
+    follow: `follow `,
   },
 ];
 
