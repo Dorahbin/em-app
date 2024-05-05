@@ -148,20 +148,6 @@ const FriendProfile = () => {
                 })}
               </div>
 
-              {/* data base components */}
-              {/* <div className=' rounded-2 '>
-                
-                {people.map((person) => {
-                  const { id, name, time, post, profileImg, postImg } = person;
-                  <div key={id} >
-                    <img src={profileImg} alt='' />
-                    <span className='fw-bold'>{name}</span>
-                    <span className='fs-5'>{time}</span>
-                    <p>{post}</p>
-                    <img src={postImg} alt='' />
-                  </div>;
-                })}
-              </div> */}
             </section>
           </main>
         </div>

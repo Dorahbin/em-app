@@ -53,7 +53,7 @@ const FriendNavBar = () => {
               <span>Community</span>
             </div>
             <div className='d-flex flex-column align-items-center '>
-              <Link to='/Profile'>
+              <Link to='/profile'>
                 <img src={profileImg} alt='' />
               </Link>
               <span className='d-flex'>

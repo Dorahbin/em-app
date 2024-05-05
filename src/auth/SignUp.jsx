@@ -188,7 +188,7 @@ const SignUp = () => {
                   {/* have account ? */}
                   <span className='d-flex gap-1 '>
                     <span className='fw-light'> Already have an account?</span>
-                    <Link to='/' className='text-decoration-none fw-bolder'>
+                    <Link to='signIn' className='text-decoration-none fw-bolder'>
                       Sign in
                     </Link>
                   </span>

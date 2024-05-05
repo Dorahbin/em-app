@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className='d-none d-lg-block d-md-block'>
           <section className='d-flex gap-3 align-items-center position-relative'>
             <div className='d-flex flex-column align-items-center'>
-              <Link to='/Home'>
+              <Link to='/home'>
                 <img src={homeImg} alt='' />
               </Link>
               <span>Home</span>
@@ -54,7 +54,7 @@ const Navbar = () => {
               <span>Community</span>
             </div>
             <div className='d-flex flex-column align-items-center '>
-              <Link to='/Profile'>
+              <Link to='/profile'>
                 <img src={profileImg} alt='' />
               </Link>
               <span className='d-flex'>

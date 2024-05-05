@@ -117,7 +117,7 @@ const Home = () => {
                             <img src={profileImg} alt='' className='' />
                           </Link>
                           <span className='d-flex flex-column justify-content-center '>
-                            <Link to='/FriendProfile' className='text-decoration-none'>
+                            <Link to='/friendProfile' className='text-decoration-none'>
                               <h5 className='pt-3 text-black'>{name}</h5>
                             </Link>
 
@@ -158,20 +158,7 @@ const Home = () => {
                 })}
               </div>
 
-              {/* data base components */}
-              {/* <div className=' rounded-2 '>
-                
-                {people.map((person) => {
-                  const { id, name, time, post, profileImg, postImg } = person;
-                  <div key={id} >
-                    <img src={profileImg} alt='' />
-                    <span className='fw-bold'>{name}</span>
-                    <span className='fs-5'>{time}</span>
-                    <p>{post}</p>
-                    <img src={postImg} alt='' />
-                  </div>;
-                })}
-              </div> */}
+             
             </section>
           </main>
         </div>

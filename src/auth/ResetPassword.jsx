@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 import emailImg from '../assets/email-img.svg';
 // import { Link } from 'react-router-dom';
 import '../styles/ResetPassword.css';
+import { Link } from 'react-router-dom';
 
 const ResetPassword = () => {
   //   const [isReveal, setReveal] = useState(false);
@@ -56,9 +57,9 @@ const ResetPassword = () => {
                   />
 
                   {/* btn */}
-                  <button className='btn btn-lg btn-primary rounded-pill fw-light'>
+                  <Link to='/signIn' className='btn btn-lg btn-primary rounded-pill fw-light'>
                     Recover Password
-                  </button>
+                  </Link>
                 </form>
               </div>
             </div>

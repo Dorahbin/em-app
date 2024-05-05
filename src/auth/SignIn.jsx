@@ -6,10 +6,10 @@ import Form from 'react-bootstrap/Form';
 import { useEffect } from 'react';
 import { FiEye } from 'react-icons/fi';
 import { FiEyeOff } from 'react-icons/fi';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import emailImg from '../assets/email-img.svg';
 import passWordImg from '../assets/password-img.svg';
-import { Link } from 'react-router-dom';
+
 import '../styles/SignIn.css';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -129,7 +129,7 @@ const SignIn = () => {
                         />
                       </div>
                     ))}
-                    <Link className='text-dark' to='/ResetPassword'>
+                    <Link className='text-dark' to='/resetPassword'>
                       Forgot Password?
                     </Link>
                   </div>
@@ -142,7 +142,7 @@ const SignIn = () => {
                   <span className='d-flex gap-1 '>
                     <span className='fw-light'> Dont have an account yet?</span>
                     <Link
-                      to='/SignUp'
+                      to='/signUp'
                       className='text-decoration-none fw-bolder'
                     >
                       Sign Up

@@ -29,7 +29,7 @@ const NavBag = () => {
         {/* Logout */}
         <div>
           <div className='d-flex gap-2 align-items-center first-div justify-content-start '>
-            <Link to='#'>
+            <Link to='/signIn'>
               <img src={logOutImg} alt='' />
             </Link>
             <span className='fw-lighter'>Log Out</span>
